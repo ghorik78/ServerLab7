@@ -46,8 +46,8 @@ public class SQLManager {
 
     public void connectToDatabase() throws IllegalAccessException {
         String url = "jdbc:postgresql://localhost:50002/studs";
-        String login = "s291812";
-        String password = "xym583";
+        String login = "";
+        String password = "";
 
         try {
             DriverManager.registerDriver((Driver) Class.forName("org.postgresql.Driver").newInstance());
